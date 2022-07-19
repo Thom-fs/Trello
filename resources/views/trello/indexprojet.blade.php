@@ -10,7 +10,6 @@
 
                 @auth
                     {{-- A FAIRE --}}
-
                     {{-- input button pour envoyer --}}
 
                     <form action="{{ route('inTodo.store') }}" method="POST">
@@ -196,7 +195,6 @@
                         </table>
 
                         <hr />
-
                     @endforeach
                 </div>
                 <div class="col-md-4">
@@ -289,7 +287,6 @@
                         <hr />
                     @endforeach
                 @endauth
-
             </div>
         </div>
     </div>

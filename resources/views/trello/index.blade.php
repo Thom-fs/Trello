@@ -23,7 +23,6 @@
 
                 @auth
                     {{-- A FAIRE --}}
-
                     {{-- input button pour envoyer --}}
 
                     <form action="{{ route('inTodo.store') }}" method="POST" enctype="multipart/form-data">
@@ -44,8 +43,6 @@
                     </form>
 
                     {{-- test upload image dans 'A FAIRE' --}}
-
-                        
 
                     {{-- foreach A FAIRE --}}
 
