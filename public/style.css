@@ -1,0 +1,128 @@
+/* NAV BAR  */
+#nav {
+    background-color: #9cd3fa;
+}
+
+.none_li {
+    list-style-type: none;
+    margin-left: 1%;
+}
+
+.card {
+    margin-top: 10%;
+}
+
+/* Modif Profil */
+
+#modify_button {
+    margin-top: 1%;
+    opacity: 0.95;
+}
+
+#modif_container {
+    margin-top: 5%;
+}
+
+/*page d'accueil avant connexion*/
+
+#welcomeTitle {
+    background: -webkit-linear-gradient(
+        90deg,
+        rgba(0, 24, 36, 1) 0%,
+        rgba(0, 212, 255, 1) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 60px;
+    text-align: center;
+    font-family: sans-serif;
+}
+#footer {
+    /* background: #9cd3fa;
+    position:static;*/
+
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* width: 100%;
+    padding-top: 50px;
+    height: 50px;
+    height: 80px;
+    text-align: center;
+    margin-bottom: 0px; */
+}
+
+/* formulaire - input a faire en cours terminé */
+
+.formulaire {
+    margin-bottom: 8%;
+}
+
+/* TASK A FAIRE EN COURS TERMINE */
+.maintitle {
+    display: flex;
+    justify-content: center;
+    color: #0ee2d1eb;
+    font-family: sans-serif;
+    margin-top: 3%;
+}
+.all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boutons {
+    display: flex;
+    height: 0%;
+}
+
+.inputform {
+    border-color: #9cd3fa;
+    border-radius: 7px;
+}
+
+.all {
+    background-color: #95d2f840;
+    border-radius: 10px;
+}
+
+.task {
+    padding-left: 2%;
+}
+
+.red {
+    background-color: rgb(255, 14, 14);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+}
+
+.green {
+    background-color: rgb(29, 221, 144);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+}
+
+body select {
+    border-color: #95d2f840;
+    border: 3px solid #95d2f840;
+    cursor: pointer;
+}
+
+strong {
+    font-family: inherit;
+}
+
+.container {
+    min-height: 76vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+
+    background-image: url('public\Images\1656940431--jpg');
+}
